@@ -1,8 +1,8 @@
 name: Overlay
 
 on:
-  pull_request:
-    branches: [pie]
+  push:
+    branches: [my.build]
 
 jobs:
   build:
